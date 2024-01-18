@@ -4,11 +4,11 @@ This project is a simple sentiment analysis of Amazon product reviews. The goal 
 
 ## Dataset
 
-The dataset used for this project is the Amazon Product Reviews dataset, which contains over 130 million customer reviews across various product categories. For this project, we will use a small subset of this dataset containing reviews for a specific product.
+The dataset used for this project is the Amazon Product Reviews dataset, which contains over 130 million customer reviews across various product categories. For this project, I used a small subset of this dataset containing reviews for a specific product.
 
 ## Preprocessing
 
-Before we can analyze the sentiment of each review, we need to preprocess the text data to remove any noise and irrelevant information. The following preprocessing steps are applied to each review:
+Before I analyze the sentiment of each review, I preprocessed the text data to remove any noise and irrelevant information. The following preprocessing steps are applied to each review:
 
 1. **Lowercase:** Convert all text to lowercase to ensure consistency.
 2. **Tokenization:** Split the text into individual words or tokens.
@@ -17,7 +17,7 @@ Before we can analyze the sentiment of each review, we need to preprocess the te
 
 ## Feature Extraction
 
-Once the data is preprocessed, we need to extract features from the text that can be used to train a machine learning model. The following feature extraction methods are commonly used in sentiment analysis:
+Once the data is preprocessed, extract features from the text that can be used to train a machine learning model. The following feature extraction methods are commonly used in sentiment analysis:
 
 1. **Bag of Words (BoW):** Represent each review as a vector of word counts, where each element of the vector represents the frequency of a specific word in the review.
 2. **Term Frequency-Inverse Document Frequency (TF-IDF):** Similar to BoW, but also takes into account the frequency of each word across all reviews in the dataset to reduce the impact of common words.
